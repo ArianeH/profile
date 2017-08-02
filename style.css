@@ -1,0 +1,161 @@
+/*
+* {
+  border: thin solid red;
+}*/
+
+body {
+  background-color: rgba(240, 240, 240, 1.0);
+  color: #715d5b;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+@media (min-width: 960px) {
+  .container {
+    background-color: rgba(240, 240, 240, 1.0);
+    width: 50%;
+    box-shadow: 10px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    background-color: rgba(240, 240, 240, 1.0);
+    width: 50%;
+    box-shadow: 10px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    background-color: rgba(240, 240, 240, 1.0);
+    width: 50%;
+    box-shadow: 10px;
+    margin: 0 auto;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.profile-image-container {
+  width: 200px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+/* resize images */
+.profile-image-container img {
+  width: 50%;
+  height: auto; /* <-- THIS ACTUALLY DOES THE TRICK */
+  border-radius: 70%;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 1.0);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.social-media {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(250, 250, 250, 1.0);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  height: 65px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #96625e;
+}
+
+h2, h3 {
+  color: #715d5b;
+  font-size: 130%;
+}
+
+.name {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 170%;
+  font-weight: 500;
+}
+
+.title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 110%;
+  font-weight: 500;
+}
+
+.list-inline li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 50px;
+  font-size: 110%;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  color: #715d5b;
+  line-height: 16px;
+}
+
+a:hover {
+  font-size: 100%;
+  color: #a16164;
+  transition: color 300ms ease;
+  transition: font-size 200ms ease;
+  line-height: 16px;
+}
+
+#lewagon-link {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100%;
+  color: blue;
+}
+
+#lewagon-link:hover {
+  font-size: 100%;
+  color: #352b2a;
+  transition: color 300ms ease;
+  transition: font-size 200ms ease;
+}
+
+.button {
+  background-color: #a16164;
+  color: rgba(250,250,250,1.0);
+  padding: 5px 10px;
+  border-radius: 10%;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background-color: #a16164;
+  color: rgba(250,250,250,1.0);
+  padding: 5px 10px;
+  border-radius: 10%;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.link-left {
+  float: left;
+  margin-left: 50px;
+}
+
+.link-right {
+  float: right;
+  margin-right: 50px;
+}
