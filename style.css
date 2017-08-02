@@ -14,7 +14,7 @@ body {
 @media (min-width: 960px) {
   .container {
     background-color: rgba(240, 240, 240, 1.0);
-    width: 50%;
+    width: 850px;
     box-shadow: 10px;
     margin: 0 auto;
   }
@@ -40,6 +40,10 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .profile-image-container {
@@ -152,10 +156,32 @@ a:hover {
 
 .link-left {
   float: left;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .link-right {
   float: right;
-  margin-right: 50px;
+  margin-right: 150px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: grey;
+}
+
+.sidebar-list li {
+  list-style-type: none;
+  padding: 50px;
+}
+
+.sidebar-list {
+  padding-left: 0px;
+}
+
+#page-content {
+  margin-left: 50px;
 }
